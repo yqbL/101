@@ -1,0 +1,57 @@
+
+.table-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex: 1;
+  /* margin: 0rpx; */
+  background-color: #e3f2fd;
+}
+
+.table-header {
+  display: flex;
+  background-color: #90caf9;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 15rpx;
+  text-align: center;
+  border: 1rpx solid #bbdefb;
+}
+
+.table-row {
+  display: flex;
+  height: 150rpx; /* 设置固定行高 */
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-top: 1rpx solid #90caf9;
+  padding: 20rpx 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #e3f2fd; 
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.active {
+  color: #1e88e5;
+  font-weight: bold;
+  border-bottom: 2rpx solid #1e88e5;
+}

@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="title">注册</view>
+
+  <view class="input-section">
+    <input class="input-box" placeholder="请输入手机号" bindinput="onPhoneInput" />
+    <input class="input-box" placeholder="请输入密码" password="true" bindinput="onPasswordInput" />
+    <input class="input-box" placeholder="确认密码" password="true" bindinput="onConfirmPasswordInput" />
+  </view>
+
+  <view class="button-section">
+    <button class="btn-register" bindtap="onRegister">注册</button>
+  </view>
+</view>

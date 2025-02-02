@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="login-title">登录</view>
+  <view class="input-container">
+    <input type="text" placeholder="输入手机号" bindinput="handlePhoneInput" />
+  </view>
+  <view class="input-container">
+    <input type="password" placeholder="输入密码" bindinput="handlePasswordInput" />
+  </view>
+  <button class="login-btn" bindtap="handleLogin">登录</button>
+  <button class="register-btn" bindtap="handleRegister">注册</button>
+  <button class="forget-btn" bindtap="handleForgetPassword">忘记密码</button>
+  <button class="wechat-login-btn" open-type="getUserInfo" bindgetuserinfo="handleWechatLogin">微信快捷登录</button>
+  <view class="agreement">登录/注册表示您同意《<navigator url="/pages/userAgreement/userAgreement">用户协议</navigator>》和《<navigator url="/pages/privacyPolicy/privacyPolicy">隐私政策</navigator>》</view>
+</view>

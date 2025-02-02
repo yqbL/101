@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="user-info">
+    <image src="/assets/images/avatar.png" class="avatar" mode="aspectFit" />
+    <view class="user-id">{{userInfo.userId}}</view>
+  </view>
+  <view class="btn-container">
+    <button class="forget-btn" bindtap="handleForgetPassword">忘记密码</button>
+    <button class="logout-btn" bindtap="handleLogout">退出登录</button>
+  </view>
+  <view class="bottom-nav">
+    <navigator url="/pages/home1/home1" class="nav-item">用药清单</navigator>
+    <navigator url="/pages/home2/home2" class="nav-item">切换清单</navigator>
+    <navigator url="/pages/user/user" class="nav-item active">用户中心</navigator>
+  </view>
+</view>

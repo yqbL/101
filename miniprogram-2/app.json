@@ -1,0 +1,20 @@
+{
+  "entryPagePath": "pages/home2/home2",
+  "pages": [
+    "pages/home1/home1",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/home2/home2",
+    "pages/user/user",
+    "pages/input/input"
+  ],
+  "window": {
+    "navigationBarTitleText": "中日友好医院",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
